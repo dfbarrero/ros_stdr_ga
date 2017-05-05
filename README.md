@@ -10,19 +10,19 @@ A simple Genetic Algorithm to evolve the neural controller of a robot with ROS a
 ## Installation
 1. Install dependencies. Verify and install if necessary the following Python packages: numpy, scikit-learn, pybrain and inspyred.
 
-2. Download ros\_stdr\_ga. The easy method (although less nerdy) is download it manually from \textit{https://github.com/dfbarrero/ros\_stdr\_ga} with a browser. The nerdy way is using \texttt{git} to clone the repository directly from GitHub, where it is hosted. Execute the following command:
+2. Download ros\_stdr\_ga. The easy method (although less nerdy) is download it manually from https://github.com/dfbarrero/ros_stdr_ga with a browser. The nerdy way is using \texttt{git} to clone the repository directly from GitHub, where it is hosted. Execute the following command:
 
     git clone https://github.com/dfbarrero/ros_stdr_ga
     
 > (Optional) Delete the \texttt{.git} folder in the repository. This removes any GIT metadata.
 
-3. Move the package to your ROS workspace, folder \texttt{src}.
+3. Move the package to your ROS workspace, folder src.
 
-4. Compile the projects with \texttt{catkin\_make}. This generates all the wrappers around the service that provides the fitness evaluation.
+4. Compile the projects with catkin_make. This generates all the wrappers around the service that provides the fitness evaluation.
 
-5. Update the environment variables with \texttt{source devel/setup.bash}.
+5. Update the environment variables with source devel/setup.bash.
 
-6. Move to the ros\_stdr\_ga root folder and test the installation running the simulation with
+6. Move to the ros_stdr_ga root folder and test the installation running the simulation with
 
      roslaunch launch/simple.launch
 
