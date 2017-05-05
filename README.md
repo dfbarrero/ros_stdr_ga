@@ -12,9 +12,9 @@ A simple Genetic Algorithm to evolve the neural controller of a robot with ROS a
 
 2. Download ros\_stdr\_ga. The easy method (although less nerdy) is download it manually from \textit{https://github.com/dfbarrero/ros\_stdr\_ga} with a browser. The nerdy way is using \texttt{git} to clone the repository directly from GitHub, where it is hosted. Execute the following command:
 
-> git clone https://github.com/dfbarrero/ros_stdr_ga
-
-    (Optional) Delete the \texttt{.git} folder in the repository. This removes any GIT metadata.
+    git clone https://github.com/dfbarrero/ros_stdr_ga
+    
+> (Optional) Delete the \texttt{.git} folder in the repository. This removes any GIT metadata.
 
 3. Move the package to your ROS workspace, folder \texttt{src}.
 
@@ -24,8 +24,9 @@ A simple Genetic Algorithm to evolve the neural controller of a robot with ROS a
 
 6. Move to the ros\_stdr\_ga root folder and test the installation running the simulation with
 
-> roslaunch launch/simple.launch
-   If everything is correct, there should be a STDR simulator window with a robot.
+     roslaunch launch/simple.launch
+
+    If everything is correct, there should be a STDR simulator window with a robot.
 
 ## Package contents
 The package contains three launch files:
