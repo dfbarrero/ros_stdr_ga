@@ -38,7 +38,7 @@ A tricky issue is how to map the array of weights given to computeFitness() to t
 
 A potential source of problems is that computeFitness() must receive a vector with the same number of weights than the ANN, otherwise there will be unexpected consequences.
 
-## Evolving the neurocontroller
+## Evolving the neurocontroller
 
 1. Initilize the ANN. Fill the function initANN() in neurocontroller.py. The part of the script you must customized is marked with ``TODO''. The function initANN() must return the network.
 2. Modify testFitness.py to test the previous step. Do not expect a good robot behaviour at this point, just random motion, if any. Thake into account that you must send the same number of weights that the ANN has.
