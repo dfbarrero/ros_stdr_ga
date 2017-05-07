@@ -7,7 +7,7 @@ A simple framework to evolve the neural controller of a robot with ROS and the S
 * Python pybrain
 * Python inspyred
 
-## Instructions to install rosstdrga
+## Instructions to install ros_stdr_ga
 First of all, you will need to install, test and understand the ros_stdr_ga package. To install it, follow the next steps:
 
 1. Install dependencies. Verify and install, if necessary, the following Python packages: numpy, scikit-learn, pybrain and inspyred. It also needs some ROS packages, in particular rospy, stdmsgs, geometrymsgs and messagegeneration.
