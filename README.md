@@ -11,7 +11,7 @@ A simple framework to evolve the neural controller of a robot with ROS and the S
 First of all, you will need to install, test and understand the ros_stdr_ga package. To install it, follow the next steps:
 
 1. Install dependencies. Verify and install, if necessary, the following Python packages: numpy, scikit-learn, pybrain and inspyred. It also needs some ROS packages, in particular rospy, stdmsgs, geometrymsgs and messagegeneration.
-2. Download ros_stdr_ga. The easy method (although less nerdy) is to download it from https://github.com/dfbarrero/rosstdrgaGitHub with a browser . The nerdy way is using Git to clone the repos itory executing the command git clone https//github.com/dfbarrero/ros_stdr_ga
+2. Download ros_stdr_ga. The easy method (although less nerdy) is to download it from https://github.com/dfbarrero/ros_stdr_ga with a browser. The nerdy way is using Git to clone the repos itory executing the command git clone https//github.com/dfbarrero/ros_stdr_ga
 3. (Optional) Delete the .git folder in the repository. This removes any Git metadata.
 4. Move the package to your ROS workspace, in the sources space (folder src).
 5. Compile the projects with catkinmake. This generates all the wrappers around the service that provides the fitness evaluation.
