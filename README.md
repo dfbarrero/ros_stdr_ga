@@ -1,4 +1,4 @@
-# ros_stdr_ga
+# ROS package ros_stdr_ga
 A simple framework to evolve the neural controller of a robot with ROS and the STDR robotic simulator.
 
 ## Dependences 
