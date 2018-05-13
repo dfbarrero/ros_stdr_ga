@@ -14,9 +14,9 @@ else:
 	#arg = "".join(arg).replace("[", "")
 	#arg = "".join(arg).replace("]", "")
 
-#print("---")
-#print(arg)
-#print("---")
+print("---")
+print(arg)
+print("---")
 
 call(["rosservice", "call", "/computeFitness", arg])
 

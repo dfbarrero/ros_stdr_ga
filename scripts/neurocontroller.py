@@ -66,6 +66,8 @@ def controlLoop(weights):
 	vel = Twist()
 	iterations = 0
 
+	# TODO: Set ANN weights with the array weights
+
 	rate = rospy.Rate(10)
 	while (not rospy.is_shutdown()) and iterations < 30: # 30 iterations seems enougth
 		# TODO: Feed the ANN with global variable ranges and store its output as an array of two floats
