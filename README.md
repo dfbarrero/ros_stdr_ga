@@ -39,7 +39,7 @@ The folder *scripts* contains the following interesting files:
 
 A potential source of problems is that computeFitness() must receive a vector with the same number of weights than the ANN, otherwise there will be unexpected consequences.
 
-# Fitness assessment
+## Fitness assessment
 
 The fitness is computed as the sum of the distance between the initial point and the final point, as measured by its odometry, and the distance traveled by the robot. Take into account that odometry contains noise, and therefore the fitness computation is noisy, which has a big impact in the evolution. The control loop iterates  times, which is enough to measure the robot behaviour while does not takes too much time to run. You can run this node and test *computeFitness()* with the command rosservice.
 
